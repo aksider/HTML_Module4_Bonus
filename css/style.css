@@ -1,4 +1,4 @@
-body{
+﻿body{
     background-color: #0c739f;
     background-image: url('../img/background.png');
     background-position: top center;
@@ -126,11 +126,8 @@ body{
 
 .triangle:after{
     display: inline-block;
-    content: "";
-    width: 5px;
-    height: 5px;
+    content: '\025BE';
     margin-left: 5px;
-    background: transparent url('../img/triangle.png') no-repeat;
 }
 
 .topmenu ul li a {
